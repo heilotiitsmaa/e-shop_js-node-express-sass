@@ -1,4 +1,3 @@
-//tellimused
 import {Order} from "./order.js";
 
 export class Customer {
