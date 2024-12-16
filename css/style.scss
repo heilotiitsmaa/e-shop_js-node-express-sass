@@ -1,0 +1,23 @@
+@import "./variables";
+body {
+    font-family: Arial, sans-serif;
+}
+button {
+    background-color: green;
+    &:hover {
+        background-color: green;
+    }
+}
+.header {
+    background: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+header button {
+    background: red;
+}
+
+.contact button {
+    background: yellow;
+}

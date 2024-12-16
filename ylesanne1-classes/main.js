@@ -70,7 +70,7 @@ printOrder() {
 
 const order = new Order(cart);
 order.printOrder();
-//order.printOrder()
+//order.printOrderHistory()
 
 //4.KLIENDI KLASS JA TELLIMUSTE AJALUGU
 class Customer {

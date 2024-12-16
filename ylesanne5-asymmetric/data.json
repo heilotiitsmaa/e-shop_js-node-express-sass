@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Kaamera",
+        "price": 499.99,
+        "category":  "Tehnika"
+    },
+    {
+        "id": 2,
+        "name": "Statiiv",
+        "price": 99.99,
+        "category":  "Tehnika"
+    },
+    {
+        "id": 3,
+        "name": "Mälukaart",
+        "price": 199.99,
+        "category":  "Tehnika"
+    }
+]
+
+fetch("data.json")
+.then(response => response.json())
+.then(values => values.forEach(value => console.log(value.isEmployed)));
