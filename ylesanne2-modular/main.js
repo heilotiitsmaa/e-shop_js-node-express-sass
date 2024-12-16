@@ -1,7 +1,7 @@
 //moodulite import
 import { Product } from "./product.js";
-import { Cart } from "./Cart.js";
-import { Customer } from "./Customer.js";
+import { Cart } from "./cart.js";
+import { Customer } from "./customer.js";
 
 // Loo tooted
 const camera = new Product(1, "Kaamera", 499.99, "Tehnika");
